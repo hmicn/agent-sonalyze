@@ -1,0 +1,482 @@
+[
+  {
+    "id": 1,
+    "faiblesses": "Porte d'entrée peu isolante : passage important du bruit aérien du palier.",
+    "solutions": [
+      {
+        "description": "Installation d'un joint isophonique périphérique (joint de bas de porte + joints latéraux renforcés).",
+        "prix": 40
+      },
+      {
+        "description": "Ajout d’un seuil automatique acoustique sous la porte.",
+        "prix": 70
+      },
+      {
+        "description": "Pose d’un panneau MDF + mousse lourde (masse-ressort-masse) côté intérieur pour alourdir la porte.",
+        "prix": 120
+      },
+      {
+        "description": "Remplacement complet par une porte blindée avec certification acoustique (35–40 dB).",
+        "prix": 1600
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "faiblesses": "Fenêtres simple vitrage ou anciennes menuiseries laissant passer les bruits extérieurs.",
+    "solutions": [
+      {
+        "description": "Pose de joints silicone ou caoutchouc pour obturer les fuites d’air (améliore aussi l'acoustique).",
+        "prix": 25
+      },
+      {
+        "description": "Installation de vitrages de rénovation type survitrage.",
+        "prix": 250
+      },
+      {
+        "description": "Remplacement par une fenêtre double vitrage acoustique (type 10/16/4).",
+        "prix": 650
+      },
+      {
+        "description": "Rideaux phoniques épais (solution d’appoint).",
+        "prix": 90
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "faiblesses": "Cloisons légères (placo simple peau) entre pièces ou voisins laissant filtrer conversation, TV, etc.",
+    "solutions": [
+      {
+        "description": "Ajout de plaques de plâtre acoustiques sur ossature désolidarisée.",
+        "prix": 55
+      },
+      {
+        "description": "Création d’un doublage masse-ressort-masse (laine de roche + double BA13).",
+        "prix": 90
+      },
+      {
+        "description": "Application de peinture acoustique (faible gain, mais simple).",
+        "prix": 25
+      },
+      {
+        "description": "Panneaux acoustiques décoratifs absorbants (solution légère d'amélioration).",
+        "prix": 60
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "faiblesses": "Plafond transmettant les bruits d'impact ou bruits aériens du voisin du dessus.",
+    "solutions": [
+      {
+        "description": "Installer un faux plafond acoustique sur suspentes antivibratiles + laine de roche.",
+        "prix": 70
+      },
+      {
+        "description": "Plaques de plâtre phoniques sous plafond existant (sans suspentes).",
+        "prix": 40
+      },
+      {
+        "description": "Dalles acoustiques décoratives (solution d’appoint).",
+        "prix": 30
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "faiblesses": "Sol transmettant les bruits d’impact (talons, chutes d’objets).",
+    "solutions": [
+      {
+        "description": "Pose d'une sous-couche acoustique sous parquet flottant.",
+        "prix": 6
+      },
+      {
+        "description": "Installation d’un sol vinyle acoustique (affaiblissement ~15 dB).",
+        "prix": 30
+      },
+      {
+        "description": "Tapis épais + sous-tapis absorbant (solution simple et économique).",
+        "prix": 40
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "faiblesses": "Prises électriques, aérations ou petites fuites dans les cloisons laissant passer le bruit.",
+    "solutions": [
+      {
+        "description": "Mousse expansive acoustique pour colmater les petites fuites.",
+        "prix": 10
+      },
+      {
+        "description": "Boîtiers électriques phoniques étanches.",
+        "prix": 15
+      },
+      {
+        "description": "Grilles d’aération acoustiques à chicanes.",
+        "prix": 40
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "faiblesses": "Bruits venant de la cage d’escalier via les interstices de la porte palière.",
+    "solutions": [
+      {
+        "description": "Joint brosse renforcé pour obturer l'espace sous la porte.",
+        "prix": 20
+      },
+      {
+        "description": "Calfeutrage complet de l’encadrement (mousse + joint silicone).",
+        "prix": 35
+      },
+      {
+        "description": "Panneau isolant phonique posé sur la face intérieure de la porte.",
+        "prix": 110
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "faiblesses": "Bruits provenant des conduits techniques (gaine technique commune).",
+    "solutions": [
+      {
+        "description": "Ouverture et remplissage avec laine de roche haute densité.",
+        "prix": 60
+      },
+      {
+        "description": "Plaquage acoustique autour de la gaine technique.",
+        "prix": 120
+      },
+      {
+        "description": "Pose de panneaux décoratifs absorbants en façade.",
+        "prix": 50
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "faiblesses": "Mur porteur transmettant des bruits solidiens (vibrations, machine à laver, perceuses).",
+    "solutions": [
+      {
+        "description": "Doublage acoustique désolidarisé (ossature + laine de roche).",
+        "prix": 85
+      },
+      {
+        "description": "Membrane acoustique lourde appliquée sous plaque de plâtre.",
+        "prix": 40
+      },
+      {
+        "description": "Panneaux anti-vibrations collés ponctuellement.",
+        "prix": 25
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "faiblesses": "Ventilation mécanique (VMC) trop bruyante.",
+    "solutions": [
+      {
+        "description": "Remplacement du bloc moteur par un modèle basse consommation silencieux.",
+        "prix": 250
+      },
+      {
+        "description": "Installation d’un silencieux circulaire dans la gaine.",
+        "prix": 70
+      },
+      {
+        "description": "Pose de manchettes antivibratiles.",
+        "prix": 20
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "faiblesses": "Cheminée désaffectée qui fait caisse de résonance.",
+    "solutions": [
+      {
+        "description": "Isolation interne avec laine de roche.",
+        "prix": 90
+      },
+      {
+        "description": "Fermeture par une plaque en plâtre acoustique.",
+        "prix": 60
+      },
+      {
+        "description": "Obturateur de conduit phonique démontable.",
+        "prix": 35
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "faiblesses": "Porte intérieure creuse laissant passer les bruits entre pièces.",
+    "solutions": [
+      {
+        "description": "Ajout de joints acoustiques.",
+        "prix": 20
+      },
+      {
+        "description": "Remplacement par une porte pleine (âme pleine).",
+        "prix": 150
+      },
+      {
+        "description": "Pose d’un bloc-porte acoustique (32–38 dB).",
+        "prix": 300
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "faiblesses": "Volets roulants laissant filtrer le bruit via le coffre intérieur.",
+    "solutions": [
+      {
+        "description": "Isolation intérieure du coffre (mousse haute densité + joint).",
+        "prix": 45
+      },
+      {
+        "description": "Remplacement du coffre par un modèle isolé thermophonique.",
+        "prix": 120
+      },
+      {
+        "description": "Pose de bande d’étanchéité acoustique.",
+        "prix": 15
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "faiblesses": "Fuites acoustiques via la porte de service ou cellier.",
+    "solutions": [
+      {
+        "description": "Joint complet d'étanchéité.",
+        "prix": 20
+      },
+      {
+        "description": "Panneau isolant acoustique collé sur la porte.",
+        "prix": 70
+      },
+      {
+        "description": "Remplacement par une porte isolée (âme pleine).",
+        "prix": 180
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "faiblesses": "Murs en briques creuses transmettant facilement les voix.",
+    "solutions": [
+      {
+        "description": "Doublage avec membrane lourde + BA13.",
+        "prix": 55
+      },
+      {
+        "description": "Pose d’une contre-cloison désolidarisée complète.",
+        "prix": 95
+      },
+      {
+        "description": "Application d’enduit acoustique.",
+        "prix": 30
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "faiblesses": "Bruits provenant du local poubelle voisin.",
+    "solutions": [
+      {
+        "description": "Renforcement de la porte du local par panneau acoustique.",
+        "prix": 80
+      },
+      {
+        "description": "Doublage du mur mitoyen avec isolant minéral.",
+        "prix": 90
+      },
+      {
+        "description": "Rideaux phoniques épais côté appartement (solution d'appoint).",
+        "prix": 70
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "faiblesses": "Bruits de pas transmis via le plancher bois ancien.",
+    "solutions": [
+      {
+        "description": "Sous-couche acoustique mousse ou liège sous parquet.",
+        "prix": 5
+      },
+      {
+        "description": "Chape sèche acoustique (granulats + plaques).",
+        "prix": 40
+      },
+      {
+        "description": "Tapis épais + sous-tapis absorbant.",
+        "prix": 40
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "faiblesses": "Échos forts dans une grande pièce peu meublée (problème d’acoustique interne).",
+    "solutions": [
+      {
+        "description": "Panneaux acoustiques muraux décoratifs.",
+        "prix": 50
+      },
+      {
+        "description": "Tapis épais couvrant la zone centrale.",
+        "prix": 60
+      },
+      {
+        "description": "Rideaux occultants épais aux fenêtres.",
+        "prix": 80
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "faiblesses": "Canalisations bruyantes (chutes d’eaux usées).",
+    "solutions": [
+      {
+        "description": "Enrobage en laine de roche haute densité.",
+        "prix": 40
+      },
+      {
+        "description": "Réalisation d’un coffrage acoustique.",
+        "prix": 120
+      },
+      {
+        "description": "Pose de colliers anti-vibrations.",
+        "prix": 10
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "faiblesses": "Ascenseur dont le moteur ou la cabine génère des vibrations.",
+    "solutions": [
+      {
+        "description": "Doublage acoustique du mur mitoyen ascenseur/appartement.",
+        "prix": 85
+      },
+      {
+        "description": "Membranes résilientes anti-vibrations sur la paroi.",
+        "prix": 35
+      },
+      {
+        "description": "Panneaux absorbants muraux pour réduire la réverbération.",
+        "prix": 50
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "faiblesses": "Bruits de voisin via une cloison en carreaux de plâtre.",
+    "solutions": [
+      {
+        "description": "Doublage en masse-ressort-masse.",
+        "prix": 85
+      },
+      {
+        "description": "Membrane acoustique lourde + BA13.",
+        "prix": 45
+      },
+      {
+        "description": "Peinture insonorisante.",
+        "prix": 30
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "faiblesses": "Porte-fenêtre coulissante laissant passer les bruits extérieurs.",
+    "solutions": [
+      {
+        "description": "Réglage + calfeutrage des joints existants.",
+        "prix": 25
+      },
+      {
+        "description": "Renforcement des joints par profilés acoustiques.",
+        "prix": 35
+      },
+      {
+        "description": "Remplacement par une baie coulissante acoustique renforcée.",
+        "prix": 1200
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "faiblesses": "Plinthes laissant passer le bruit dans le bas des cloisons.",
+    "solutions": [
+      {
+        "description": "Injection de mousse expansive acoustique derrière les plinthes.",
+        "prix": 15
+      },
+      {
+        "description": "Pose de plinthes isolantes avec joint d’étanchéité.",
+        "prix": 20
+      },
+      {
+        "description": "Comblement des fissures au silicone acoustique.",
+        "prix": 10
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "faiblesses": "Séparation appartement/balcon laissant entrer bruits de rue.",
+    "solutions": [
+      {
+        "description": "Jointage renforcé autour de la baie vitrée.",
+        "prix": 20
+      },
+      {
+        "description": "Rideaux phoniques lourds.",
+        "prix": 90
+      },
+      {
+        "description": "Double vitrage acoustique sur la baie.",
+        "prix": 700
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "faiblesses": "Bruits venant du plafond en dalle béton mince.",
+    "solutions": [
+      {
+        "description": "Faux plafond sur suspentes acoustiques.",
+        "prix": 75
+      },
+      {
+        "description": "Plaques de plâtre phoniques renforcées.",
+        "prix": 35
+      },
+      {
+        "description": "Dalles acoustiques collées (gain modéré).",
+        "prix": 30
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "faiblesses": "Vibrations transmises par des appareils électroménagers.",
+    "solutions": [
+      {
+        "description": "Silent-blocs sous machine à laver ou sèche-linge.",
+        "prix": 15
+      },
+      {
+        "description": "Plateforme anti-vibration renforcée.",
+        "prix": 40
+      },
+      {
+        "description": "Rééquilibrage / entretien de l’appareil.",
+        "prix": 0
+      }
+    ]
+  }
+]

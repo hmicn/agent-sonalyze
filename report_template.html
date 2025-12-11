@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rapport d'Analyse Acoustique</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 20px; background-color: #f4f4f9; color: #333; }
+        .container { max-width: 900px; margin: 0 auto; background: white; padding: 40px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        h1 { color: #2c3e50; border-bottom: 2px solid #eee; padding-bottom: 10px; }
+        .summary-box { background-color: #e8f4fd; padding: 20px; border-left: 5px solid #3498db; margin-bottom: 30px; border-radius: 4px; }
+        .budget-box { background-color: #eafaf1; padding: 15px; border: 1px solid #2ecc71; border-radius: 4px; margin-bottom: 30px; font-weight: bold; color: #27ae60; }
+        .solution-card { border: 1px solid #ddd; border-radius: 6px; padding: 20px; margin-bottom: 20px; transition: transform 0.2s; }
+        .solution-card:hover { transform: translateY(-2px); box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        .solution-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 15px; }
+        .faiblesse { font-weight: 600; color: #e74c3c; font-size: 1.1em; }
+        .match-score { font-size: 0.85em; background: #eee; padding: 2px 8px; border-radius: 12px; color: #666; }
+        .options-table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+        .options-table th, .options-table td { text-align: left; padding: 10px; border-bottom: 1px solid #eee; }
+        .options-table th { color: #7f8c8d; font-weight: normal; font-size: 0.9em; }
+        .price { font-weight: bold; color: #2c3e50; }
+        .affordable { color: #27ae60; }
+        .expensive { color: #e74c3c; }
+        footer { margin-top: 50px; text-align: center; font-size: 0.9em; color: #7f8c8d; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Rapport d'Analyse Acoustique</h1>
+        
+        <div class="summary-box">
+            <h3>Diagnostic des Faiblesses Structurelles</h3>
+            <p>{{ analysis }}</p>
+        </div>
+
+        <div class="budget-box">
+            Budget Client : {{ budget }} €
+        </div>
+
+        <h2>Solutions Recommandées</h2>
+
+        {% if recommended_solutions %}
+            {% for match in recommended_solutions %}
+            <div class="solution-card">
+                <div class="solution-header">
+                    <div class="faiblesse">Problème détecté : {{ match.doc.faiblesses }}</div>
+                    <div class="match-score">Pertinence : {{ "%.0f"|format(match.score * 100) }}%</div>
+                </div>
+                
+                <table class="options-table">
+                    <thead>
+                        <tr>
+                            <th>Solution Proposée</th>
+                            <th>Prix Estimé</th>
+                            <th>Statut Budget</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for option in match.doc.solutions %}
+                        <tr style="{% if option.prix > budget %}opacity: 0.6;{% else %}background-color: #f9fff9;{% endif %}">
+                            <td>{{ option.description }}</td>
+                            <td class="price">{{ option.prix }} €</td>
+                            <td>
+                                {% if option.prix <= budget %}
+                                    <span class="affordable">✔ Compatible</span>
+                                {% else %}
+                                    <span class="expensive">✘ Hors budget</span>
+                                {% endif %}
+                            </td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+            {% endfor %}
+        {% else %}
+            <p>Aucune solution correspondante trouvée dans la base de données.</p>
+        {% endif %}
+
+        <footer>
+            Généré par Sonalyze AI • {{ timestamp }}
+        </footer>
+    </div>
+</body>
+</html>
